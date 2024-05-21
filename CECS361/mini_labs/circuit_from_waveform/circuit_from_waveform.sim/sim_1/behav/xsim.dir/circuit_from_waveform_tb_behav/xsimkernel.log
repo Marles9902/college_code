@@ -1,0 +1,7 @@
+Running: xsim.dir/circuit_from_waveform_tb_behav/xsimk.exe -simmode gui -wdb circuit_from_waveform_tb_behav.wdb -simrunnum 0 -socket 55758
+Design successfully loaded
+Design Loading Memory Usage: 9500 KB (Peak: 9500 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 10024 KB (Peak: 10024 KB)
+Simulation CPU Usage: 61 ms
