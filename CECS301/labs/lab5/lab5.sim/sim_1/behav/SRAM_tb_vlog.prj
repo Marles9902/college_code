@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../lab5.srcs/sources_1/new/Decoder.v"
+verilog xil_defaultlib  "../../../lab5.srcs/sources_1/new/DReg_wEnable.v"
+verilog xil_defaultlib  "../../../lab5.srcs/sources_1/new/SRAM.v"
+verilog xil_defaultlib  "../../../lab5.srcs/sim_1/new/SRAM_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
