@@ -1,0 +1,4 @@
+".\Objects\SILABS_STARTUP.obj",
+".\Objects\main.obj" 
+TO ".\Objects\lab5" 
+PRINT(".\Listings\lab5.m51") RAMSIZE(256) 
