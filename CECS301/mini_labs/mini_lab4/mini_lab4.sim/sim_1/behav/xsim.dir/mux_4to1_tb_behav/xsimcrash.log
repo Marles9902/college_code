@@ -1,0 +1,40 @@
+Unable to capture context for thread 14948 in process 15308, can not generate back trace
+Unable to capture context for thread 6996 in process 15308, can not generate back trace
+Unable to capture context for thread 4052 in process 15308, can not generate back trace
+Exception at PC 0x00007FFC38FD4F69
+Unable to capture context for thread 4052 in process 15308, can not generate back trace
+Exception at PC 0x00007FFBA72EBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+[0]  [0x00007FFBA72EBB93]
+[1]  [0x00007FFBA72EBB93]
+[2]  [0x00007FFBA72EB4A1]
+[3]  [0x00007FFBA72EB3EF]
+[4]  [0x00007FFBA72D19FE]
+[5]  [0x00007FFBA72D0ED1]
+[6]  [0x00007FFBA72D0D76]
+[7]  [0x00007FFBA72779F6]
+[8]  [0x00007FFBA7267AFB]
+[9]  [0x00007FFBA738E90A]
+[10]  [0x00007FFBA73A9F87]
+[11]  [0x00007FFBA73AA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFC39A17034]
+[13] (RtlUserThreadStart+0x21) [0x00007FFC3B4C2651]
+Done
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
+Exception at PC 0x00007FFC38FD4F69
