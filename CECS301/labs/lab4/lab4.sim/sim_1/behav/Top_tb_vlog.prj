@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../lab2/lab2.srcs/sources_1/new/BCD_To_7seg.v"
+verilog xil_defaultlib  "../../../lab4.srcs/sources_1/new/Arbiter.v"
+verilog xil_defaultlib  "../../../lab4.srcs/sources_1/new/Bus_Master.v"
+verilog xil_defaultlib  "../../../lab4.srcs/sources_1/new/Top_Module.v"
+verilog xil_defaultlib  "../../../lab4.srcs/sim_1/new/Top_Module_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
