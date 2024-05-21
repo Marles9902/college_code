@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Downloads/FA_PG.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module FA_PG
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/301_lab1/301_lab1.srcs/sources_1/new/AddSubCLA_4bit.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module AddSubCLA_4bit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/301_lab1/301_lab1.srcs/sim_1/new/AddSubCLA_4bit_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module AddSubCLA_4bit_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/301_lab1/301_lab1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
