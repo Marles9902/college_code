@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Downloads/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Downloads/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/361_lab/mini_labs/fibonacci_circuit/fibonacci_circuit.srcs/sources_1/new/fib_str.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fib_str
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/361_lab/mini_labs/fibonacci_circuit/fibonacci_circuit.srcs/sources_1/new/fib_beh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fib_beh
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/361_lab/mini_labs/fibonacci_circuit/fibonacci_circuit.srcs/sim_1/new/fib_beh_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fib_beh_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/marwi/Desktop/Code/361_lab/mini_labs/fibonacci_circuit/fibonacci_circuit.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
