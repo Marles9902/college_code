@@ -1,0 +1,21 @@
+Circuit: * C:\Users\marwi\Desktop\Code\311_lab\lab6\lab6.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Apr 27 09:23:41 2022
+Total elapsed time: 0.138 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2088
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 674 bytes object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 993 bytes object code size  0.2/0.3/[0.2]
+
