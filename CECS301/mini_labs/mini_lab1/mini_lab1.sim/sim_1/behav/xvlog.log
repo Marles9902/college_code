@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/CECS301/labs/mini_lab1/mini_lab1.srcs/sources_1/new/and_sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/CECS301/labs/mini_lab1/mini_lab1.srcs/sim_1/new/and_sample_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_sample_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/code/CECS301/labs/mini_lab1/mini_lab1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
