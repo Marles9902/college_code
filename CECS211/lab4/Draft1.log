@@ -1,0 +1,21 @@
+Circuit: * C:\College\CECS\CECS211\lab4\Draft1.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Jan 31 09:51:27 2022
+Total elapsed time: 0.058 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2094
+traniter = 2088
+tranpoints = 1045
+accept = 1045
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1:       6 opcodes  0.0/[0.0]/0.0
+Matrix Compiler2: 248 bytes object code size  0.0/0.0/[0.0]
+
