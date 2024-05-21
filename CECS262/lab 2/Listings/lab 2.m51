@@ -1,0 +1,157 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    09/30/2021  22:53:31  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\SILABS_STARTUP.obj, .\Objects\main.obj TO .\Objects\lab 2 PRINT (.\Listings\lab 2.
+>> m51) RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\SILABS_STARTUP.obj (?C_STARTUP)
+  .\Objects\main.obj (MAIN)
+
+
+LINK MAP OF MODULE:  .\Objects\lab 2 (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0004H     UNIT         _DATA_GROUP_
+            IDATA   000CH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     009BH     UNIT         ?PR?MAIN?MAIN
+            CODE    089BH     0010H     UNIT         ?PR?INITDEVICE?MAIN
+            CODE    08ABH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab 2 (?C_STARTUP)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN                  0008H    0004H
+  +--> ?PR?INITDEVICE?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab 2 (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:08ABH         SEGMENT       ?C_C51STARTUP
+  I:000CH         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  09/30/2021  22:53:31  PAGE 2
+
+
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:08AEH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:08ABH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:08ABH         LINE#         138
+  C:08ADH         LINE#         139
+  C:08AEH         LINE#         140
+  C:08AFH         LINE#         141
+  C:08B1H         LINE#         190
+  C:08B4H         LINE#         201
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:0097H         PUBLIC        WDTCN
+  D:00A5H         PUBLIC        P1MDOUT
+  D:00A8H         PUBLIC        IE
+  D:00E3H         PUBLIC        XBR2
+  C:0800H         PUBLIC        main
+  C:089BH         PUBLIC        InitDevice
+  -------         PROC          INITDEVICE
+  C:089BH         LINE#         5
+  C:089BH         LINE#         6
+  C:089BH         LINE#         9
+  C:089EH         LINE#         10
+  C:08A1H         LINE#         14
+  C:08A4H         LINE#         20
+  C:08A7H         LINE#         23
+  C:08AAH         LINE#         27
+  -------         ENDPROC       INITDEVICE
+  -------         PROC          MAIN
+  -------         DO            
+  D:0082H         SYMBOL        i
+  D:0002H         SYMBOL        x
+  D:0004H         SYMBOL        y
+  D:0008H         SYMBOL        delay
+  D:000AH         SYMBOL        output
+  -------         ENDDO         
+  C:0800H         LINE#         29
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  09/30/2021  22:53:31  PAGE 3
+
+
+  C:0800H         LINE#         33
+  C:0803H         LINE#         35
+  C:0809H         LINE#         37
+  C:0809H         LINE#         39
+  C:080EH         LINE#         40
+  C:0814H         LINE#         41
+  C:0816H         LINE#         42
+  C:081CH         LINE#         43
+  C:081CH         LINE#         46
+  C:0821H         LINE#         47
+  C:082CH         LINE#         48
+  C:0831H         LINE#         49
+  C:083DH         LINE#         50
+  C:0840H         LINE#         51
+  C:084AH         LINE#         52
+  C:0851H         LINE#         53
+  C:085AH         LINE#         55
+  C:086AH         LINE#         56
+  C:0875H         LINE#         57
+  C:0878H         LINE#         58
+  C:0884H         LINE#         59
+  C:0887H         LINE#         60
+  C:0891H         LINE#         61
+  C:0898H         LINE#         62
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00BAH BYTE ( 9%) *
+******************************************************************************
+
+Program Size: data=13.0 xdata=0 code=186
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
