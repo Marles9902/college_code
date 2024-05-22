@@ -1,0 +1,76 @@
+Dependencies for Project 'I2C', Target 'I2C': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\startup.s)(0x654C2303)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./startup.o)
+F (.\I2CTestMain.c)(0x6552C62F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./i2ctestmain.o -MD)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (I2C.h)(0x6552C0BA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (util.h)(0x654C2421)
+I (UART0.h)(0x654C2303)
+I (TCS34727.h)(0x654C326F)
+I (MPU6050.h)(0x654C2303)
+I (ButtonLED.h)(0x654C2303)
+I (Servo.h)(0x654C2303)
+I (LCD.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63892A08)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63892A08)
+I (ModuleTest.h)(0x654C2303)
+F (.\I2C.c)(0x6552C650)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./i2c.o -MD)
+I (I2C.h)(0x6552C0BA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (util.h)(0x654C2421)
+F (.\UART0.c)(0x654C2487)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./uart0.o -MD)
+I (UART0.h)(0x654C2303)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (util.h)(0x654C2421)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+F (.\ButtonLED.c)(0x654C2303)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./buttonled.o -MD)
+I (ButtonLED.h)(0x654C2303)
+I (tm4c123gh6pm.h)(0x654C2303)
+F (.\util.c)(0x654C2303)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./util.o -MD)
+I (util.h)(0x654C2421)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (tm4c123gh6pm.h)(0x654C2303)
+F (.\MPU6050.c)(0x654C2303)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./mpu6050.o -MD)
+I (MPU6050.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (util.h)(0x654C2421)
+I (I2C.h)(0x6552C0BA)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (UART0.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63892A08)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x63892A08)
+F (.\Servo.c)(0x654C2303)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./servo.o -MD)
+I (Servo.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (util.h)(0x654C2421)
+I (tm4c123gh6pm.h)(0x654C2303)
+F (.\LCD.c)(0x654C2303)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./lcd.o -MD)
+I (LCD.h)(0x654C2303)
+I (util.h)(0x654C2421)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (I2C.h)(0x6552C0BA)
+F (.\ModuleTest.c)(0x6552C4A2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./moduletest.o -MD)
+I (ModuleTest.h)(0x654C2303)
+I (TCS34727.h)(0x654C326F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (util.h)(0x654C2421)
+I (MPU6050.h)(0x654C2303)
+I (UART0.h)(0x654C2303)
+I (Servo.h)(0x654C2303)
+I (LCD.h)(0x654C2303)
+I (I2C.h)(0x6552C0BA)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (ButtonLED.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63892A08)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63892A08)
+F (.\TCS34727.c)(0x654C269E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_I2C-IC:/Users/marwi/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/marwi/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./tcs34727.o -MD)
+I (TCS34727.h)(0x654C326F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63892A08)
+I (util.h)(0x654C2421)
+I (I2C.h)(0x6552C0BA)
+I (tm4c123gh6pm.h)(0x654C2303)
+I (UART0.h)(0x654C2303)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63892A08)
