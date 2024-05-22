@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Oct 20 20:55:13 2022
+# Process ID: 5164
+# Current directory: C:/Users/marwi/Desktop/Code/361/final_project/Multiple_7segments
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12792 C:\Users\marwi\Desktop\Code\361\final_project\Multiple_7segments\Multiple_7segments.xpr
+# Log file: C:/Users/marwi/Desktop/Code/361/final_project/Multiple_7segments/vivado.log
+# Journal file: C:/Users/marwi/Desktop/Code/361/final_project/Multiple_7segments\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/marwi/Desktop/Code/361/final_project/Multiple_7segments/Multiple_7segments.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 809.656 ; gain = 151.574
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 20 21:05:29 2022...
