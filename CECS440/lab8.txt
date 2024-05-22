@@ -1,0 +1,14 @@
+lw $t0, 0($s0)       # load length
+addi $s0, $s0, 8     # increment address
+lw $t1, 0($s0)       # load width
+addi $s0, $s0, 8     # increment address
+lw $t2, 0($s0)       # load height
+addi $s0, $s0, 8     # increment address
+
+mul $t3, $t0, $t1    # length x width
+mul $t3, $t3, $t2    # (lw) x height
+slt $t4, $t3, $zero  # check if negative
+beq $t4, $zero, V    # jump to V if not
+sub $t3, $zero, $t3  # turn positive
+V:                   # volume (result)
+sw $t3, 0($s0)       # store result

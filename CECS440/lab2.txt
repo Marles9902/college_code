@@ -1,0 +1,7 @@
+# Type your code here.
+# Do not initialize register values here.
+
+# Z = A + B + C - D
+add $t0, $s0, $s1    # temp = A + B
+add $t0, $t0, $s2    # temp = temp + C
+sub $s4, $t0, $s3    # Z = temp - D

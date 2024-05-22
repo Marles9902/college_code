@@ -1,0 +1,13 @@
+addi $t0, $zero, 0   # first num
+addi $t1, $zero, 1   # second num
+
+Loop:
+sw $t0, 0($s1)       # store num in array
+add $t2, $t0, $t1    # calculate next
+move $t0, $t1        # update first num
+move $t1, $t2        # update second num
+addi $s1, $s1, 4     # increment address
+addi $s0, $s0, -1    # decrement size
+bne $s0, $zero, Loop # if size=0, exit
+                     # otherwise, loop
+Exit:

@@ -1,0 +1,28 @@
+Main:
+      # move the values into arguments
+      # order matters for Dif only
+      move $a0, $s1
+      move $a1, $s0
+      # jump and link to each procedure
+      # save result to registers
+      jal Sum  # s1 + s0
+      move $s2, $v0
+      jal Dif  # s1 - s0
+      move $s3, $v0
+      jal Mul  # s1 x s0
+      move $s4, $v0
+      j End
+
+# Procedure Sum (Do not modify)
+Sum:
+      add $v0, $a0, $a1
+      jr $ra
+# Procedure Dif (Do not modify)
+Dif:
+      sub $v0, $a0, $a1
+      jr $ra
+# Procedure Mul (lab 9 extra)
+Mul:
+      mul $v0, $a0, $a1
+      jr $ra
+End:

@@ -1,0 +1,13 @@
+# load memory values into registers
+lw $s0, 4000($t0)    # load into A
+lw $s1, 4004($t0)    # load into B
+lw $s2, 4008($t0)    # load into C
+lw $s3, 4012($t0)    # load into D
+
+# Z = (A + B) * (C - D)
+add $t1, $s0, $s1    # temp1 = A + B
+sub $t2, $s2, $s3    # temp2 = C - D
+mul $s4, $t1, $t2    # Z = temp1 * temp2
+
+# store solution into memory
+sw $s4, 4016($t4)    # store Z into memory

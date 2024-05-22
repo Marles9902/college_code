@@ -1,0 +1,48 @@
+addi $sp, $zero, 6000   # Assume Stack memory starts at 6000. Do not modify.
+
+# Procedure Main (Do not modify)
+Main:
+      add $a0, $zero, $s0
+      add $a1, $zero, $s1
+      
+      jal Sum
+      
+      add $s2, $s0, $s1
+      add $s2, $s2, $v0
+      
+      j End
+
+# Procedure Sum
+Sum:
+      addi $sp, $sp, -8   # allocate memory in stack
+      sw $ra, 0($sp)       # store return address Main
+      add $t0, $zero, $a0  # add x to temporary register
+      add $t1, $zero, $a1  # add y to temporary register
+      sw $t2, 4($sp)       # preserve value for test
+      
+      addi $a0, $t1, 1     # a = n+1 = y+1
+      addi $a1, $t0, -1    # b = m-1 = x-1
+      jal Dif              # p = b-a
+      
+      sw $v0, 8($sp)      # save p value from v0
+      lw $t2, 8($sp)      # load p value onto $t2
+      
+      addi $a0, $t0, 1     # a = m+1 = x+1
+      addi $a1, $t1, -1    # b = n-1 = y-1
+      jal Dif              # q = b-a
+      
+      add $v0, $t2, $v0    # p+q = Sum(x,y)
+      
+      lw $ra, 0($sp)       # load return address Main
+      lw $t2, 4($sp)       # load preserved value for test ($t2=15)
+      addi $sp, $sp, 8     # deallocate memory
+      jr $ra               # jump to return address Main
+      
+      
+
+# Procedure Dif (Do not modify)
+Dif:
+      sub $v0, $a1, $a0
+      jr $ra
+
+End:

@@ -1,0 +1,13 @@
+addi $s2, $s0, 16    #assume len(array)=4
+
+Loop: 
+slt $t1, $s0, $s2    #if $s0<$s2, $t1=1
+beq $t1, $zero, Exit #if $t1=0, Exit
+lw $t0, 0($s0)       #load value to $t0
+mul $t0, $t0, $t0    #square value
+sw $t0, 0($s1)       #store result
+addi $s0, $s0, 4     #increment address
+addi $s1, $s1, 4     #increment address
+j Loop               #continue loop
+
+Exit: 

@@ -1,0 +1,25 @@
+# if s1<s0, continue block
+# if no, jump to elif block
+slt $t0, $s1, $s0
+beq $t0, $zero, Elif
+# if s2<s0, s3=s0 then exit program
+# if no, jump to else block
+slt $t1, $s2, $s0 
+beq $t1, $zero, Else
+add $s3, $zero, $s0
+j Exit
+
+Elif:
+# if s2<s1, s3=s1 then exit program
+# if no, jump to else block
+slt $t1, $s2, $s1
+beq $t1, $zero, Else
+add $s3, $zero, $s1
+j Exit
+
+Else:
+# s2>s0,s1 so s3=s2 then exit program
+add $s3, $zero, $s2
+j Exit
+
+Exit:

@@ -1,0 +1,5 @@
+# load memory value from s0 to t0
+lw $t0, 0($s0)
+
+# store value to s1 from t0
+sw $t0, 0($s1)

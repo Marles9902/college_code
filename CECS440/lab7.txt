@@ -1,0 +1,20 @@
+lw $t0, 0($s2)    # load N for mult
+lw $t2, 0($s2)    # load N for divi
+
+M:                # loop for i
+sll $t1, $t0, 1   # multiply by 2
+move $t0, $t1     # update N 
+addi $s0, $s0, -1 # decrement i 
+bne $s0, $zero, M # if i!=0, loop
+addi $s2, $s2, 4  # increment address
+sw $t1, 0($s2)    # store product
+
+D:                # loop for j
+srl $t3, $t2, 1   # divide by 2
+move $t2, $t3     # update N
+addi $s1, $s1, -1 # decrement j
+bne $s1, $zero, D # if j!=0, loop 
+addi $s2, $s2, 4  # increment address
+sw $t2, 0($s2)    # store quotient
+
+Exit: 
