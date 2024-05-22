@@ -1,0 +1,96 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 08/25/2022 01:02:42 PM
+// Design Name: 
+// Module Name: mux_4to1_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module mux_4to1_tb(
+    );
+    
+    reg a_tb, b_tb, c_tb, d_tb;
+    reg [1:0] sel_tb;
+    wire out_tb;
+    
+    mux_4to1 uut(.a(a_tb), .b(b_tb), .c(c_tb), .d(d_tb), .sel(sel_tb), .out(out_tb));
+    
+    localparam period = 100;
+    
+    initial begin
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b00;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 1;
+    sel_tb = 2'b00;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b01;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 1;
+    d_tb = 0;
+    sel_tb = 2'b01;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b10;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 1;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b10;
+    #period;
+    
+    a_tb = 0;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b11;
+    #period;
+    
+    a_tb = 1;
+    b_tb = 0;
+    c_tb = 0;
+    d_tb = 0;
+    sel_tb = 2'b11;
+    #period;
+    
+    $finish;
+    
+    end
+endmodule
+
