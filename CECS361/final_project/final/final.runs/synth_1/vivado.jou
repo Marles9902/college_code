@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Dec 03 13:40:15 2022
+# Process ID: 8632
+# Current directory: C:/Users/marwi/Desktop/Code/361/final_project/final/final.runs/synth_1
+# Command line: vivado.exe -log digitalClock.vds -mode batch -messageDb vivado.pb -notrace -source digitalClock.tcl
+# Log file: C:/Users/marwi/Desktop/Code/361/final_project/final/final.runs/synth_1/digitalClock.vds
+# Journal file: C:/Users/marwi/Desktop/Code/361/final_project/final/final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source digitalClock.tcl -notrace
